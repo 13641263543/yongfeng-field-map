@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>田埂退潮之后 · 永丰四村田野地图</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="gl"></canvas>
+  <canvas id="lines"></canvas>
+  <div id="markers"></div>
+  <div id="fan"></div>
+
+  <header class="hud hud-tl">
+    <button class="gate-back mono" id="gate-back" type="button" data-interactive="回到门"><span>←</span> 回到门 <kbd>G</kbd></button>
+    <div class="brand"><span class="dot"></span><span class="mono" id="brand-line">FIELD NOTES / 田野笔记</span></div>
+    <h1 id="title" class="title"></h1>
+    <p id="kicker" class="kicker mono"></p>
+    <p id="subtitle" class="subtitle mono"></p>
+    <p id="intro" class="intro"></p>
+    <p id="author" class="author mono"></p>
+  </header>
+
+  <div class="hud hud-tr mono" id="stats">
+    <div><span>CAM</span><b id="s-cam">—</b></div>
+    <div><span>ZOOM</span><b id="s-zoom">—</b></div>
+    <div><span>PARTICLES</span><b id="s-pts">—</b></div>
+    <div><span>FPS</span><b id="s-fps">—</b></div>
+  </div>
+
+  <nav class="top-nav hud" id="top-nav">
+    <button data-overlay="about" data-interactive="项目">项目</button>
+    <button data-overlay="timeline" data-interactive="时间线">时间线</button>
+    <button data-overlay="compare" data-interactive="对比">对比</button>
+    <button data-overlay="gallery" data-interactive="图库">图库</button>
+  </nav>
+
+  <div class="themes hud" id="themes"></div>
+  <div class="quote-ticker hud mono" id="quote-ticker"><span id="qt-text"></span><span id="qt-by"></span></div>
+
+  <nav class="hud hud-bl" id="index"></nav>
+
+  <div class="hud hud-br mono">
+    <div class="compass" id="compass"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18"/><path d="M20 5 L24 20 L20 17 L16 20Z" class="n"/><path d="M20 35 L24 20 L20 23 L16 20Z"/></svg><span>北</span></div>
+    <div class="readout"><div>GRID <b id="r-grid">—</b></div><div>相对高程 <b id="r-elev">—</b></div></div>
+  </div>
+
+  <div class="hint mono" id="hint">
+    <span class="k">鼠标</span>扰动丘陵 · <span class="k">点击</span>进村 ·
+    <span class="k">+/-</span>缩放 · <span class="k">WASD/方向键</span>平移 · <span class="k">0</span>复位 ·
+    <span class="k">G</span>/<span class="k">Esc</span>回到门
+  </div>
+  <div class="badge-note mono" id="note"></div>
+
+  <aside id="panel" aria-hidden="true">
+    <button class="back mono" id="back"><span>←</span> 返回全图 <kbd>Esc</kbd></button>
+    <div class="panel-scroll" id="panel-scroll">
+      <div class="p-head">
+        <div class="p-idx mono" id="p-idx"></div>
+        <h2 class="p-name" id="p-name"></h2>
+        <div class="p-en mono" id="p-en"></div>
+        <div class="p-meta" id="p-meta"></div>
+        <div class="p-stats" id="p-stats"></div>
+      </div>
+      <blockquote class="p-quote reveal" id="p-quote" hidden></blockquote>
+      <p class="p-summary reveal" id="p-summary"></p>
+      <section class="reveal"><h3 class="mono">照片 <i>PHOTOS</i></h3>
+        <div class="gallery" id="gallery"></div>
+        <button class="all-photos mono" id="all-photos" data-interactive="全部照片">查看全部照片</button>
+      </section>
+      <section class="reveal"><h3 class="mono">遇到的人 <i>PEOPLE</i></h3><div class="people" id="people"></div></section>
+      <section class="reveal"><h3 class="mono">发生的事 <i>STORIES</i></h3><ol class="stories" id="stories"></ol></section>
+      <section class="reveal"><h3 class="mono">调研发现 <i>FINDINGS</i></h3><ol class="findings" id="findings"></ol></section>
+      <section class="reveal" id="sec-memory" hidden><h3 class="mono">记忆分叉 <i>MEMORY</i></h3><div id="memory"></div></section>
+      <section class="reveal" id="sec-gaps"><h3 class="mono">待补充 <i>GAPS</i></h3><ul class="gaps" id="gaps"></ul></section>
+      <div class="p-nav reveal"><button id="prev" class="mono">← 上一个</button><button id="next" class="mono">下一个 →</button></div>
+    </div>
+  </aside>
+
+  <div id="overlay" aria-hidden="true">
+    <div class="ov-bg" id="ov-bg"></div>
+    <div class="ov-card">
+      <button class="ov-close mono" id="ov-close" data-interactive="关闭">关闭 ✕</button>
+      <div class="ov-body" id="ov-body"></div>
+    </div>
+  </div>
+
+  <div id="masonry" aria-hidden="true">
+    <div class="ms-head">
+      <div><b id="ms-title"></b><span class="mono" id="ms-count"></span></div>
+      <button class="ov-close mono" id="ms-close" data-interactive="关闭">关闭 ✕</button>
+    </div>
+    <div class="ms-grid" id="ms-grid"></div>
+  </div>
+
+  <div id="lightbox" aria-hidden="true">
+    <div class="lb-bg"></div>
+    <div class="lb-cap mono"><span id="lb-idx"></span><span id="lb-cap"></span></div>
+    <button class="lb-close mono" id="lb-close">关闭 ✕</button>
+    <button class="lb-arrow l" id="lb-prev">←</button><button class="lb-arrow r" id="lb-next">→</button>
+  </div>
+
+  <div id="loader"><div class="ld-num mono" id="ld-num">00</div><div class="ld-txt mono">正在生成地形 · BUILDING TERRAIN</div><div class="ld-bar"><i id="ld-bar"></i></div></div>
+  <div id="cursor"><div class="c-dot"></div><div class="c-ring"><span id="c-label"></span></div></div>
+  <div class="vignette"></div><div class="grain"></div>
+</div>
+<script src="vendor/d3.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

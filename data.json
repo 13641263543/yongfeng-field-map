@@ -1,0 +1,1937 @@
+{
+ "site": {
+  "title": "田埂退潮之后",
+  "tab": "田埂退潮之后 · 永丰四村田野地图",
+  "kicker": "浙江临海 · 永丰镇 · 四村田野地图",
+  "subtitle": "AFTER THE FIELDS EBB · YONGFENG 2026",
+  "intro": "从深山到平原，四个散村排成一条土地流转的梯度线。移动鼠标扰动丘陵，点击村庄看人与事。",
+  "author": "李青熠 · 中国美术学院 雕塑与公共艺术学院 · 2026 秋",
+  "note": "田野艺术民族志 · 口述内容均为村民说法"
+ },
+ "about": {
+  "titles": [
+   {
+    "t": "《田埂退潮之后》",
+    "s": "浙东四村散点行走下，土地流转中的村民职业重构与公共空间身体落点",
+    "m": "田野艺术民族志 · 田野艺术研究课程汇报"
+   },
+   {
+    "t": "《屋檐之间》",
+    "s": "临海市永丰镇散村公共空间与在地身体经验研究",
+    "m": "2026 年 10 月 · 永丰镇下乡复访"
+   }
+  ],
+  "origin": "在吴岸村，先想采访一位老人，被轰走了；想让自己显得更有亲和力，就去村里的超市买了一块巧克力，碰上了很好客的超市老板。他说起两三年前地被统一收走承包，说村里人现在分成三类：出去打工的、留在村里接零工的、没有活只能在家闲着的。所有无处可去的人，最后都聚在超市这一片屋檐下。",
+  "hypothesis": "越往深山走，种地的痕迹越重，屋檐下闲坐的人越少；越靠近平原公路，土地流转越彻底，屋檐下聚的人越多。于是逆着这条线，去走另外三个村。",
+  "question": "散村的“公共性”到底藏在哪里？",
+  "methods": [
+   {
+    "k": "感官行走",
+    "v": "用身体走完四个村，记录土地痕迹、劳作场景和聚集点：气味、声音、温度。"
+   },
+   {
+    "k": "口述民族志",
+    "v": "和村民闲聊、半结构访谈，收集土地流转的个人记忆版本。"
+   },
+   {
+    "k": "身体视角",
+    "v": "看人从“下地劳作”到“屋檐闲坐”的身体状态变化。"
+   },
+   {
+    "k": "参与式观察",
+    "v": "复访时在三个村各待一段时间，看人们在哪里停下来、和谁说话。"
+   }
+  ],
+  "findings": [
+   {
+    "k": "职业梯度",
+    "v": "从「跟着田走」到「等着活来」：自耕与家庭代工 → 庭院轻种植 → 建房事务与本地零工 → 外出务工 / 村内零工 / 居家闲置。"
+   },
+   {
+    "k": "公共空间退潮",
+    "v": "田埂·晒场 → 家门口院落 → 连通廊檐·巷道 → 超市屋檐。屋檐不是普通的建筑结构，是田消失之后，散村人临时安放身体的新空间。"
+   },
+   {
+    "k": "记忆分叉",
+    "v": "同一个村的土地流转，超市老板和爷爷讲出了两套版本：时间、补偿、感受都不一样。"
+   },
+   {
+    "k": "用错了地方",
+    "v": "不是空间没人用，是用错了地方：新修的凉亭白天空无一人，大家在柴火堆旁聊天；屋檐、台阶才是真正的聚集点。"
+   }
+  ],
+  "install": [
+   {
+    "k": "四组并置行走影像",
+    "v": "东安、横山腰、姜家岙、吴岸，四组行走画面并排循环。"
+   },
+   {
+    "k": "身体落点坐具装置",
+    "v": "田埂的土坡、门口的石墩、廊檐的长凳、屋檐下的塑料凳，按顺序对应四个村。"
+   },
+   {
+    "k": "口述声音装置",
+    "v": "耳机里两段土地流转的口述版本；作品不评判土地政策的好坏，只把个体的记忆摆在一起。"
+   }
+  ],
+  "limits": [
+   "只走了四个村，样本小；不是严格的定量研究。",
+   "信息来自村民口述，没有官方统计数据；没有和地方官方数据对照。",
+   "外来者视角：听不懂方言，很多细节可能被翻译掉了。",
+   "但小而具体，比大而空更有力量。"
+  ],
+  "senses": [
+   {
+    "k": "嗅觉",
+    "v": "村尾老房子的味道、柴火的烟火气、养蜂的甜腥气。"
+   },
+   {
+    "k": "听觉",
+    "v": "几乎完全听不懂方言；“天台”在本地读作“台台”；老人说话慢，语气温和。"
+   },
+   {
+    "k": "温度",
+    "v": "村民友好，没有防备。"
+   }
+  ],
+  "answer": "屋檐，是田退潮之后，散村人临时安放身体的新岸。",
+  "thanks": "感谢四位村里愿意停下来聊天的人。",
+  "refs": [
+   {
+    "q": "城里人可以用土气来藐视乡下人，但是乡下，“土”是他们的命根。",
+    "by": "费孝通《乡土中国·乡土本色》（1948）"
+   },
+   {
+    "q": "不论经营权如何流转，集体土地承包权都属于农民家庭。",
+    "by": "中办 国办《关于完善农村土地所有权承包权经营权分置办法的意见》2016"
+   },
+   {
+    "q": "截至2023年底，全国家庭承包耕地经营权流转面积5.91亿亩，占家庭承包耕地总面积的37.76%。",
+    "by": "农业农村部 · 农办议〔2025〕380号"
+   },
+   {
+    "q": "过去不是被保留下来的，而是在现在的基础上被重新建构的。",
+    "by": "莫里斯·哈布瓦赫《论集体记忆》第69页"
+   },
+   {
+    "q": "没有“虚假”的口述史料。（自译）",
+    "by": "Alessandro Portelli, The Oral History Reader (1998), p.68"
+   },
+   {
+    "q": "……他对中间这一层没有兴趣，这是“附近的消失”。",
+    "by": "项飙 ·《十三邀》第四季 · 2019"
+   }
+  ],
+  "refsNote": "以上为短片《田埂退潮之后》制作时逐条核对过出处的延伸参照，不是田野材料。"
+ },
+ "timeline": [
+  {
+   "d": "2026 秋",
+   "t": "吴岸村 · 超市屋檐下",
+   "v": "被想采访的老人轰走，买了一块巧克力，和超市老板聊开。研究从这里开始。",
+   "vid": "wuan"
+  },
+  {
+   "d": "2026 秋",
+   "t": "逆着梯度往山里走",
+   "v": "从平原往深山，走东安、横山腰、姜家岙，四村散点行走。",
+   "vid": null
+  },
+  {
+   "d": "2026.10",
+   "t": "永丰镇复访 · 三天三村",
+   "v": "东安 → 横山腰 → 姜家岙（顺序据相机文件编号推断）。参与式观察、半结构访谈、感官行走。",
+   "vid": "dongan"
+  },
+  {
+   "d": "2026 秋",
+   "t": "两份课程汇报",
+   "v": "《田埂退潮之后》（田野艺术研究课程汇报）与《屋檐之间》。",
+   "vid": null
+  },
+  {
+   "d": "2026.10.24",
+   "t": "短片《田埂退潮之后》",
+   "v": "DE LITORE NOVO · 论新岸。把田野口述和引文做成一支无旁白短片。",
+   "vid": null
+  },
+  {
+   "d": "待补充",
+   "t": "装置方案",
+   "v": "四组并置影像 + 四件坐具 + 口述声音装置。",
+   "vid": null
+  }
+ ],
+ "timelineNote": "每次下乡的具体日期待补充：照片没有拍摄时间信息，吴岸村照片只有微信文件日期 2026.10.19。",
+ "themes": [
+  {
+   "id": "flow",
+   "name": "土地流转"
+  },
+  {
+   "id": "work",
+   "name": "职业重构"
+  },
+  {
+   "id": "eaves",
+   "name": "屋檐"
+  },
+  {
+   "id": "door",
+   "name": "门口与路边"
+  },
+  {
+   "id": "home",
+   "name": "家庭代工"
+  },
+  {
+   "id": "guard",
+   "name": "看守者"
+  },
+  {
+   "id": "nb",
+   "name": "邻里与附近"
+  },
+  {
+   "id": "mem",
+   "name": "记忆分叉"
+  },
+  {
+   "id": "gen",
+   "name": "两代人"
+  },
+  {
+   "id": "sense",
+   "name": "感官"
+  }
+ ],
+ "compare": {
+  "cols": [
+   "dongan",
+   "hengshanyao",
+   "jiangjiaao",
+   "wuan"
+  ],
+  "rows": [
+   {
+    "k": "地形",
+    "v": [
+     "深山",
+     "半山",
+     "山边新村",
+     "平原"
+    ]
+   },
+   {
+    "k": "土地流转",
+    "v": [
+     "最低 · 保留自耕与家庭代工",
+     "已承包 · 老人守庭院",
+     "半流转 · 人居改造",
+     "整村承包 · 最高"
+    ],
+    "lv": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "k": "职业",
+    "v": [
+     "养蜂 + 家庭手工代工",
+     "大田停种，庭院轻种植",
+     "建房事务 + 本地零工",
+     "外出务工 / 村内零工 / 居家闲置"
+    ]
+   },
+   {
+    "k": "身体",
+    "v": [
+     "跟着加工活走，半满",
+     "半闲置，范围缩到院门口",
+     "在走廊和巷道里打交道",
+     "闲置，挤在屋檐下"
+    ]
+   },
+   {
+    "k": "公共空间落点",
+    "v": [
+     "自家门口 · 路边柴火堆",
+     "家门口院落",
+     "连通廊檐 · 巷道",
+     "超市屋檐"
+    ]
+   },
+   {
+    "k": "留下的物件",
+    "v": [
+     "梨树上的架子",
+     "门口的板栗树",
+     "二楼相通的门",
+     "空的烟柜"
+    ]
+   },
+   {
+    "k": "坐具装置",
+    "v": [
+     "田埂的土坡",
+     "门口的石墩",
+     "廊檐的长凳",
+     "屋檐下的塑料凳"
+    ]
+   }
+  ],
+  "tagline": "从「跟着田走」到「等着活来」"
+ },
+ "quotes": [
+  {
+   "text": "屋檐，是田退潮之后，散村人临时安放身体的新岸。",
+   "by": "李青熠 · 田野笔记",
+   "vid": "wuan"
+  },
+  {
+   "text": "造房子要征求附近村民同意，政府也不行。",
+   "by": "姜家岙 · 一位村民大叔",
+   "vid": "jiangjiaao"
+  },
+  {
+   "text": "劳作没有消失，只是从田埂挪回了家里。",
+   "by": "李青熠 · 田野笔记",
+   "vid": "dongan"
+  },
+  {
+   "text": "宏大的政策落到每个村民嘴里，都会变成带个人记忆的版本。",
+   "by": "李青熠 · 田野笔记",
+   "vid": "wuan"
+  },
+  {
+   "text": "不是空间没人用，是用错了地方。",
+   "by": "李青熠 · 田野笔记",
+   "vid": null
+  },
+  {
+   "text": "真正的公共空间，是生活自然长出来的。",
+   "by": "李青熠 · 田野笔记",
+   "vid": null
+  },
+  {
+   "text": "乡村的公共性，首先是身体的——气味、声音、温度，然后才是空间规划。",
+   "by": "李青熠 · 田野笔记",
+   "vid": null
+  }
+ ],
+ "map": {
+  "river": [
+   [
+    0.86,
+    -0.04
+   ],
+   [
+    0.875,
+    0.04
+   ],
+   [
+    0.905,
+    0.11
+   ],
+   [
+    0.925,
+    0.17
+   ],
+   [
+    0.9,
+    0.22
+   ],
+   [
+    0.915,
+    0.28
+   ],
+   [
+    0.94,
+    0.33
+   ],
+   [
+    0.955,
+    0.4
+   ],
+   [
+    0.94,
+    0.46
+   ],
+   [
+    0.965,
+    0.52
+   ],
+   [
+    0.99,
+    0.57
+   ],
+   [
+    1.04,
+    0.6
+   ]
+  ],
+  "roads": [
+   [
+    [
+     -0.04,
+     0.47
+    ],
+    [
+     0.06,
+     0.44
+    ],
+    [
+     0.11,
+     0.42
+    ],
+    [
+     0.2,
+     0.48
+    ],
+    [
+     0.3,
+     0.52
+    ],
+    [
+     0.38,
+     0.55
+    ],
+    [
+     0.45,
+     0.57
+    ],
+    [
+     0.5,
+     0.65
+    ],
+    [
+     0.56,
+     0.73
+    ],
+    [
+     0.61,
+     0.82
+    ],
+    [
+     0.64,
+     0.9
+    ],
+    [
+     0.66,
+     1.04
+    ]
+   ],
+   [
+    [
+     0.45,
+     0.57
+    ],
+    [
+     0.43,
+     0.46
+    ],
+    [
+     0.39,
+     0.34
+    ],
+    [
+     0.34,
+     0.24
+    ],
+    [
+     0.35,
+     0.14
+    ],
+    [
+     0.38,
+     0.05
+    ],
+    [
+     0.4,
+     -0.04
+    ]
+   ],
+   [
+    [
+     0.45,
+     0.57
+    ],
+    [
+     0.58,
+     0.56
+    ],
+    [
+     0.67,
+     0.51
+    ],
+    [
+     0.77,
+     0.48
+    ],
+    [
+     0.86,
+     0.43
+    ],
+    [
+     0.93,
+     0.38
+    ]
+   ],
+   [
+    [
+     0.61,
+     0.82
+    ],
+    [
+     0.72,
+     0.86
+    ],
+    [
+     0.8,
+     0.88
+    ],
+    [
+     0.89,
+     0.94
+    ],
+    [
+     0.97,
+     0.97
+    ],
+    [
+     1.04,
+     0.99
+    ]
+   ],
+   [
+    [
+     0.6,
+     -0.04
+    ],
+    [
+     0.6,
+     0.04
+    ],
+    [
+     0.63,
+     0.09
+    ],
+    [
+     0.61,
+     0.15
+    ],
+    [
+     0.64,
+     0.22
+    ],
+    [
+     0.67,
+     0.3
+    ],
+    [
+     0.67,
+     0.51
+    ]
+   ],
+   [
+    [
+     0.11,
+     0.42
+    ],
+    [
+     0.13,
+     0.3
+    ],
+    [
+     0.1,
+     0.18
+    ],
+    [
+     0.04,
+     0.08
+    ],
+    [
+     -0.04,
+     0.02
+    ]
+   ]
+  ]
+ },
+ "villages": [
+  {
+   "name": "东安村",
+   "short": "东安",
+   "en": "DONG'AN",
+   "belt": "深山",
+   "hex": "#ff9d4d",
+   "lv": 1,
+   "themes": [
+    "flow",
+    "work",
+    "home",
+    "door",
+    "sense"
+   ],
+   "date": "2026.10 复访 · 具体日期待补充",
+   "summary": "深山尽头，土地还没有被整体收走。劳作没有消失，只是从田埂挪回了家里：村民坐在自家椅子上接老板外放的手工加工活，房前给树搭架子，路边堆着柴火、晒着吃的。人和土地的联结，散落在房前屋后。",
+   "occupation": "养蜂 + 家庭手工代工",
+   "space": "自家门口 · 路边柴火堆",
+   "people": [
+    {
+     "name": "路边做加工活的村民",
+     "role": "家庭代工",
+     "note": "坐在自家的椅子上，做老板外放的手工加工活。"
+    },
+    {
+     "name": "村尾养蜂的奶奶",
+     "role": "养蜂",
+     "note": "不会说普通话；两个孩子，一个在临海，一个在天台。家里设施很老，人很豁达好客。"
+    }
+   ],
+   "stories": [
+    {
+     "d": "笔记",
+     "t": "家门口的椅子",
+     "v": "有专门的老板把手工加工活放给村民做，村民就坐在自家的椅子上做。"
+    },
+    {
+     "d": "笔记",
+     "t": "树上的架子",
+     "v": "房前种着梨树，搭了架子方便摘梨。"
+    },
+    {
+     "d": "笔记",
+     "t": "柴火和晾晒",
+     "v": "路边堆着柴火，晒着食物。"
+    },
+    {
+     "d": "笔记",
+     "t": "越往村尾走",
+     "v": "房子越来越老，味道也越来越重；柴火的烟火气，养蜂的甜腥气。"
+    }
+   ],
+   "findings": [
+    "土地还没有被整体收走，身体也没有闲下来：劳作从大田转回了家门口的家庭代工。",
+    "公共空间在路边的椅子、柴火堆和晒台旁，跟着生活走。",
+    "东安是复访三村里散居最明显、路边生活最丰富的一个。"
+   ],
+   "quotes": [
+    {
+     "text": "劳作没有消失，只是从田埂挪回了家里。",
+     "by": "李青熠 · 田野笔记"
+    }
+   ],
+   "gaps": [
+    "每次走访的具体日期",
+    "加工活的具体品类：照片里能看到编织件，文字记录里没有写明",
+    "奶奶的原话与可公开的称呼（需本人同意）",
+    "梨树架、蜂箱的照片：现有图集里还没确认",
+    "人像照片的公开授权"
+   ],
+   "id": "dongan",
+   "uv": [
+    0.67,
+    0.505
+   ],
+   "sat": "assets/sat/dongan.webp",
+   "photos": [
+    {
+     "src": "assets/photos/dongan/00.webp",
+     "thumb": "assets/photos/dongan/t/00.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "路边堆起的柴火",
+     "face": 0,
+     "file": "DSC04111.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/01.webp",
+     "thumb": "assets/photos/dongan/t/01.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "正在编的藤筐",
+     "face": 0,
+     "file": "DSC04099.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/02.webp",
+     "thumb": "assets/photos/dongan/t/02.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "搭在树上的竹架",
+     "face": 0,
+     "file": "DSC04107.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/03.webp",
+     "thumb": "assets/photos/dongan/t/03.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "竹匾里的晾晒",
+     "face": 0,
+     "file": "DSC04115.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/04.webp",
+     "thumb": "assets/photos/dongan/t/04.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "墙上刻着「建于一九九三年 十月」",
+     "face": 0,
+     "file": "DSC04143.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/05.webp",
+     "thumb": "assets/photos/dongan/t/05.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "门里堆满编织筐的屋子",
+     "face": 0,
+     "file": "DSC04103.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/06.webp",
+     "thumb": "assets/photos/dongan/t/06.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "老石墙民居与木格窗",
+     "face": 0,
+     "file": "DSC04092.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/07.webp",
+     "thumb": "assets/photos/dongan/t/07.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "进村的山间公路",
+     "face": 0,
+     "file": "DSC04093.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/08.webp",
+     "thumb": "assets/photos/dongan/t/08.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "成摞的编织半成品",
+     "face": 0,
+     "file": "DSC04094.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/09.webp",
+     "thumb": "assets/photos/dongan/t/09.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "屋里做编织活的村民",
+     "face": 1,
+     "file": "DSC04095.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/10.webp",
+     "thumb": "assets/photos/dongan/t/10.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "竹编格子框",
+     "face": 0,
+     "file": "DSC04097.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/11.webp",
+     "thumb": "assets/photos/dongan/t/11.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "竹编格子框与杂物",
+     "face": 0,
+     "file": "DSC04098.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/12.webp",
+     "thumb": "assets/photos/dongan/t/12.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "路边的平房",
+     "face": 0,
+     "file": "DSC04101.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/13.webp",
+     "thumb": "assets/photos/dongan/t/13.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "路边的平房（另一角度）",
+     "face": 0,
+     "file": "DSC04102.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/14.webp",
+     "thumb": "assets/photos/dongan/t/14.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "编织筐之间的老人",
+     "face": 1,
+     "file": "DSC04104.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/15.webp",
+     "thumb": "assets/photos/dongan/t/15.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "堆着编织筐的屋子",
+     "face": 0,
+     "file": "DSC04105.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/16.webp",
+     "thumb": "assets/photos/dongan/t/16.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "屋内的编织筐",
+     "face": 0,
+     "file": "DSC04106.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/17.webp",
+     "thumb": "assets/photos/dongan/t/17.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "树枝间的竹竿",
+     "face": 0,
+     "file": "DSC04108.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/18.webp",
+     "thumb": "assets/photos/dongan/t/18.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石阶旁，树下坐着的人",
+     "face": 0,
+     "file": "DSC04109.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/19.webp",
+     "thumb": "assets/photos/dongan/t/19.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石阶与树荫",
+     "face": 0,
+     "file": "DSC04110.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/20.webp",
+     "thumb": "assets/photos/dongan/t/20.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "院角的木柴",
+     "face": 0,
+     "file": "DSC04112.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/21.webp",
+     "thumb": "assets/photos/dongan/t/21.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "墙根下的柴火堆",
+     "face": 0,
+     "file": "DSC04113.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/22.webp",
+     "thumb": "assets/photos/dongan/t/22.webp",
+     "w": 933,
+     "h": 1400,
+     "caption": "路边堆放的杂物",
+     "face": 0,
+     "file": "DSC04114.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/23.webp",
+     "thumb": "assets/photos/dongan/t/23.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "墙头的竹匾与葱",
+     "face": 0,
+     "file": "DSC04116.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/24.webp",
+     "thumb": "assets/photos/dongan/t/24.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "墙头晾晒的食物",
+     "face": 0,
+     "file": "DSC04117.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/25.webp",
+     "thumb": "assets/photos/dongan/t/25.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "屋后的山坡",
+     "face": 0,
+     "file": "DSC04118.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/26.webp",
+     "thumb": "assets/photos/dongan/t/26.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石墙上的二层楼房",
+     "face": 0,
+     "file": "DSC04119.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/27.webp",
+     "thumb": "assets/photos/dongan/t/27.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "土黄外墙与木格窗",
+     "face": 0,
+     "file": "DSC04120.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/28.webp",
+     "thumb": "assets/photos/dongan/t/28.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石墙与树",
+     "face": 0,
+     "file": "DSC04121.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/29.webp",
+     "thumb": "assets/photos/dongan/t/29.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石墙与树（另一角度）",
+     "face": 0,
+     "file": "DSC04122.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/30.webp",
+     "thumb": "assets/photos/dongan/t/30.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "爬满藤蔓的老石墙",
+     "face": 0,
+     "file": "DSC04123.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/31.webp",
+     "thumb": "assets/photos/dongan/t/31.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石墙间的小巷",
+     "face": 0,
+     "file": "DSC04124.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/32.webp",
+     "thumb": "assets/photos/dongan/t/32.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "木门与石墙",
+     "face": 0,
+     "file": "DSC04125.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/33.webp",
+     "thumb": "assets/photos/dongan/t/33.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石阶上的一只鸡",
+     "face": 0,
+     "file": "DSC04126.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/34.webp",
+     "thumb": "assets/photos/dongan/t/34.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村道尽头",
+     "face": 0,
+     "file": "DSC04127.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/35.webp",
+     "thumb": "assets/photos/dongan/t/35.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "蓝色铁皮的老屋",
+     "face": 0,
+     "file": "DSC04128.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/36.webp",
+     "thumb": "assets/photos/dongan/t/36.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "铁皮老屋与阳台",
+     "face": 0,
+     "file": "DSC04129.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/37.webp",
+     "thumb": "assets/photos/dongan/t/37.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "老屋里的厨房",
+     "face": 0,
+     "file": "DSC04130.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/38.webp",
+     "thumb": "assets/photos/dongan/t/38.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "梁上挂着的袋子",
+     "face": 0,
+     "file": "DSC04131.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/39.webp",
+     "thumb": "assets/photos/dongan/t/39.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "昏暗的屋内",
+     "face": 0,
+     "file": "DSC04132.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/40.webp",
+     "thumb": "assets/photos/dongan/t/40.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "挂着衣物的老屋",
+     "face": 0,
+     "file": "DSC04133.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/41.webp",
+     "thumb": "assets/photos/dongan/t/41.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "屋里的奶奶",
+     "face": 1,
+     "file": "DSC04134.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/42.webp",
+     "thumb": "assets/photos/dongan/t/42.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "桌上的饭菜",
+     "face": 0,
+     "file": "DSC04135.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/43.webp",
+     "thumb": "assets/photos/dongan/t/43.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "在屋里和奶奶聊天",
+     "face": 1,
+     "file": "DSC04136.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/44.webp",
+     "thumb": "assets/photos/dongan/t/44.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和奶奶合影",
+     "face": 1,
+     "file": "DSC04137.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/45.webp",
+     "thumb": "assets/photos/dongan/t/45.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和奶奶合影",
+     "face": 1,
+     "file": "DSC04138.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/46.webp",
+     "thumb": "assets/photos/dongan/t/46.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "老式电视机与五斗柜",
+     "face": 0,
+     "file": "DSC04139.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/47.webp",
+     "thumb": "assets/photos/dongan/t/47.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "卧室一角",
+     "face": 0,
+     "file": "DSC04140.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/48.webp",
+     "thumb": "assets/photos/dongan/t/48.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "奶奶",
+     "face": 1,
+     "file": "DSC04141.jpg"
+    },
+    {
+     "src": "assets/photos/dongan/49.webp",
+     "thumb": "assets/photos/dongan/t/49.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "站在屋里的奶奶",
+     "face": 1,
+     "file": "DSC04142.jpg"
+    }
+   ]
+  },
+  {
+   "name": "横山腰村",
+   "short": "横山腰",
+   "en": "HENGSHANYAO",
+   "belt": "半山",
+   "hex": "#ffd84d",
+   "lv": 2,
+   "themes": [
+    "flow",
+    "work",
+    "guard",
+    "door"
+   ],
+   "date": "2026.10 复访 · 具体日期待补充",
+   "summary": "半山上的百年古村，已经有一百多年历史。家里的地全都包出去了，老人不再下地，却也没离开：门口留着一棵板栗树，活动范围缩到自家院落门口。身体从“整天下地”进入半闲置的过渡状态。",
+   "occupation": "大田停种，庭院轻种植",
+   "space": "家门口院落",
+   "people": [
+    {
+     "name": "两位老人",
+     "role": "守着院子",
+     "note": "待人非常客气、亲和。家里的土地已经全部承包出去，自己不再耕种，门口种着一棵板栗树。"
+    }
+   ],
+   "stories": [
+    {
+     "d": "笔记",
+     "t": "百年古村",
+     "v": "村子有一百多年的历史，老房子还在。"
+    },
+    {
+     "d": "笔记",
+     "t": "门口的板栗树",
+     "v": "地包出去之后，老人只在门口留一棵板栗树，院子成了身体活动的边界。"
+    },
+    {
+     "d": "笔记",
+     "t": "从耕种到看守",
+     "v": "他们从“耕种者”变成了“看守者”：守着门口，地已经不归自己种了。"
+    }
+   ],
+   "findings": [
+    "土地已承包，老人不再耕种，但仍然留在村里守着庭院。",
+    "身体从下地劳作进入半闲置的过渡状态，公共空间收缩到家门口。"
+   ],
+   "quotes": [
+    {
+     "text": "从「耕种者」到「看守者」。",
+     "by": "李青熠 · 田野笔记"
+    }
+   ],
+   "gaps": [
+    "每次走访的具体日期",
+    "两位老人的原话",
+    "地包给了谁、什么时候包出去的（记录里没有）",
+    "板栗树的照片：现有图集里还没确认",
+    "百年历史的出处（族谱、碑记或村委说法）"
+   ],
+   "id": "hengshanyao",
+   "uv": [
+    0.58,
+    0.56
+   ],
+   "sat": "assets/sat/hengshanyao.webp",
+   "photos": [
+    {
+     "src": "assets/photos/hengshanyao/00.webp",
+     "thumb": "assets/photos/hengshanyao/t/00.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "草木掩映的老楼",
+     "face": 0,
+     "file": "DSC04147.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/01.webp",
+     "thumb": "assets/photos/hengshanyao/t/01.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "稻田边挂着塑料袋的竹竿",
+     "face": 0,
+     "file": "DSC04200.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/02.webp",
+     "thumb": "assets/photos/hengshanyao/t/02.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石砌的老屋",
+     "face": 0,
+     "file": "DSC04152.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/03.webp",
+     "thumb": "assets/photos/hengshanyao/t/03.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "墙上褪色的计划生育标语",
+     "face": 0,
+     "file": "DSC04150.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/04.webp",
+     "thumb": "assets/photos/hengshanyao/t/04.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "稻田间的村道",
+     "face": 0,
+     "file": "DSC04145.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/05.webp",
+     "thumb": "assets/photos/hengshanyao/t/05.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "堆着木柴与盆罐的棚屋",
+     "face": 0,
+     "file": "DSC04149.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/06.webp",
+     "thumb": "assets/photos/hengshanyao/t/06.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "进村的公路",
+     "face": 0,
+     "file": "DSC04144.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/07.webp",
+     "thumb": "assets/photos/hengshanyao/t/07.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "林间小路",
+     "face": 0,
+     "file": "DSC04146.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/08.webp",
+     "thumb": "assets/photos/hengshanyao/t/08.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "铁门上的涂鸦「very good」",
+     "face": 0,
+     "file": "DSC04148.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/09.webp",
+     "thumb": "assets/photos/hengshanyao/t/09.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "挂着红灯笼的民居",
+     "face": 0,
+     "file": "DSC04151.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/10.webp",
+     "thumb": "assets/photos/hengshanyao/t/10.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村道上的狗",
+     "face": 0,
+     "file": "DSC04153.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/11.webp",
+     "thumb": "assets/photos/hengshanyao/t/11.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村道与远山",
+     "face": 0,
+     "file": "DSC04154.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/12.webp",
+     "thumb": "assets/photos/hengshanyao/t/12.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "挂满果子的树",
+     "face": 0,
+     "file": "DSC04171.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/13.webp",
+     "thumb": "assets/photos/hengshanyao/t/13.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石堆与竹竿",
+     "face": 0,
+     "file": "DSC04172.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/14.webp",
+     "thumb": "assets/photos/hengshanyao/t/14.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "枝头的果子",
+     "face": 0,
+     "file": "DSC04173.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/15.webp",
+     "thumb": "assets/photos/hengshanyao/t/15.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "地上的白色小花",
+     "face": 0,
+     "file": "DSC04175.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/16.webp",
+     "thumb": "assets/photos/hengshanyao/t/16.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "车窗外的稻田与远山",
+     "face": 0,
+     "file": "DSC04192.jpg"
+    },
+    {
+     "src": "assets/photos/hengshanyao/17.webp",
+     "thumb": "assets/photos/hengshanyao/t/17.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "走向稻田的调研小组（背影）",
+     "face": 0,
+     "file": "DSC04205.jpg"
+    }
+   ]
+  },
+  {
+   "name": "姜家岙",
+   "short": "姜家岙",
+   "en": "JIANGJIA'AO",
+   "belt": "山边新村",
+   "hex": "#7be08a",
+   "lv": 3,
+   "themes": [
+    "flow",
+    "work",
+    "nb",
+    "eaves"
+   ],
+   "date": "2026.10 复访 · 具体日期待补充",
+   "summary": "山边新村，村里其实并不姓姜。“千村示范、万村整治”把这里变了样：大约二十年前通了硬化路，政府牵头改造预制板房，家家户户二楼有门相通。聊天的话题从种地转到了宅基地、人居和邻里。",
+   "occupation": "建房事务 + 本地零工",
+   "space": "连通廊檐 · 巷道",
+   "people": [
+    {
+     "name": "一位村民大叔",
+     "role": "村民",
+     "note": "聊到村里造房子的事，说了一句：「造房子要征求附近村民同意，政府也不行。」"
+    },
+    {
+     "name": "村民们",
+     "role": "村民",
+     "note": "说二楼那些相通的门，是留给还没建房的人家的。"
+    }
+   ],
+   "stories": [
+    {
+     "d": "笔记",
+     "t": "不姓姜的姜家岙",
+     "v": "村名叫姜家岙，村里人却并不姓姜。"
+    },
+    {
+     "d": "笔记",
+     "t": "村村通",
+     "v": "大约二十年前，“村村通”修了硬化路；后来政府牵头改造预制板房。"
+    },
+    {
+     "d": "笔记",
+     "t": "二楼的门",
+     "v": "家家户户二楼有门相连，还预留了以后建房的地块。村民说，这些门是留给还没建房的人家的。"
+    },
+    {
+     "d": "笔记",
+     "t": "一位老兵的故居",
+     "v": "村里有一位抗美援朝老兵的故居，老兵已经过世。"
+    },
+    {
+     "d": "笔记",
+     "t": "那一句话",
+     "v": "问起村里造房子的事，一位村民大叔说：造房子要征求附近村民同意，政府也不行。"
+    }
+   ],
+   "findings": [
+    "话题从“种地”转到“宅基地、人居、邻里”：土地流转之后，房子成了村里最重要的事。",
+    "空间在这里不是私人的，是社会性的：二楼的门把还没建房的人家也算了进去。",
+    "“附近”是大叔的原词：邻里同意比行政命令更硬。"
+   ],
+   "quotes": [
+    {
+     "text": "造房子要征求附近村民同意，政府也不行。",
+     "by": "一位村民大叔"
+    }
+   ],
+   "gaps": [
+    "每次走访的具体日期",
+    "那栋楼的来历：谁在建、为什么停下（记录里没有）",
+    "老兵故居的位置与照片",
+    "二楼相通的门的近景照片",
+    "人像照片的公开授权"
+   ],
+   "id": "jiangjiaao",
+   "uv": [
+    0.11,
+    0.42
+   ],
+   "sat": "assets/sat/jiangjiaao.webp",
+   "photos": [
+    {
+     "src": "assets/photos/jiangjiaao/00.webp",
+     "thumb": "assets/photos/jiangjiaao/t/00.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "连排民居的二层走廊",
+     "face": 0,
+     "file": "DSC04218.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/01.webp",
+     "thumb": "assets/photos/jiangjiaao/t/01.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "电线间的一栋高楼",
+     "face": 0,
+     "file": "DSC04221.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/02.webp",
+     "thumb": "assets/photos/jiangjiaao/t/02.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "红砖与石块砌的房子",
+     "face": 0,
+     "file": "DSC04215.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/03.webp",
+     "thumb": "assets/photos/jiangjiaao/t/03.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "菜地与竹篱",
+     "face": 0,
+     "file": "DSC04222.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/04.webp",
+     "thumb": "assets/photos/jiangjiaao/t/04.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "停在草丛里的面包车",
+     "face": 0,
+     "file": "DSC04210.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/05.webp",
+     "thumb": "assets/photos/jiangjiaao/t/05.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "连排民居的二层",
+     "face": 0,
+     "file": "DSC04220.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/06.webp",
+     "thumb": "assets/photos/jiangjiaao/t/06.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村口的村道",
+     "face": 0,
+     "file": "DSC04207.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/07.webp",
+     "thumb": "assets/photos/jiangjiaao/t/07.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "外墙上的窗",
+     "face": 0,
+     "file": "DSC04208.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/08.webp",
+     "thumb": "assets/photos/jiangjiaao/t/08.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "屋旁的小路",
+     "face": 0,
+     "file": "DSC04209.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/09.webp",
+     "thumb": "assets/photos/jiangjiaao/t/09.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "民居间的台阶",
+     "face": 0,
+     "file": "DSC04211.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/10.webp",
+     "thumb": "assets/photos/jiangjiaao/t/10.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "新楼与旧房之间的荒地",
+     "face": 0,
+     "file": "DSC04212.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/11.webp",
+     "thumb": "assets/photos/jiangjiaao/t/11.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "路边堆起的土方",
+     "face": 0,
+     "file": "DSC04213.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/12.webp",
+     "thumb": "assets/photos/jiangjiaao/t/12.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "草丛中的小径",
+     "face": 0,
+     "file": "DSC04214.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/13.webp",
+     "thumb": "assets/photos/jiangjiaao/t/13.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "院子里的锅碗与水桶",
+     "face": 0,
+     "file": "DSC04216.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/14.webp",
+     "thumb": "assets/photos/jiangjiaao/t/14.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "红砖楼房",
+     "face": 0,
+     "file": "DSC04217.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/15.webp",
+     "thumb": "assets/photos/jiangjiaao/t/15.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "连排民居（另一角度）",
+     "face": 0,
+     "file": "DSC04219.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/16.webp",
+     "thumb": "assets/photos/jiangjiaao/t/16.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "菜地",
+     "face": 0,
+     "file": "DSC04223.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/17.webp",
+     "thumb": "assets/photos/jiangjiaao/t/17.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "楼房上加盖的铁皮房间",
+     "face": 0,
+     "file": "DSC04224.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/18.webp",
+     "thumb": "assets/photos/jiangjiaao/t/18.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "院前的狗与三轮车",
+     "face": 0,
+     "file": "DSC04225.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/19.webp",
+     "thumb": "assets/photos/jiangjiaao/t/19.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "石头上的黑狗",
+     "face": 0,
+     "file": "DSC04226.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/20.webp",
+     "thumb": "assets/photos/jiangjiaao/t/20.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "黑狗",
+     "face": 0,
+     "file": "DSC04227.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/21.webp",
+     "thumb": "assets/photos/jiangjiaao/t/21.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "路边的小店",
+     "face": 0,
+     "file": "DSC04228.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/22.webp",
+     "thumb": "assets/photos/jiangjiaao/t/22.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "挂着红色横幅的民居",
+     "face": 0,
+     "file": "DSC04229.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/23.webp",
+     "thumb": "assets/photos/jiangjiaao/t/23.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "门口的村民",
+     "face": 1,
+     "file": "DSC04230.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/24.webp",
+     "thumb": "assets/photos/jiangjiaao/t/24.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "红色横幅与村道",
+     "face": 0,
+     "file": "DSC04231.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/25.webp",
+     "thumb": "assets/photos/jiangjiaao/t/25.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "远处的红色横幅",
+     "face": 0,
+     "file": "DSC04232.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/26.webp",
+     "thumb": "assets/photos/jiangjiaao/t/26.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "一位村民大叔",
+     "face": 1,
+     "file": "DSC04233.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/27.webp",
+     "thumb": "assets/photos/jiangjiaao/t/27.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "一位村民大叔",
+     "face": 1,
+     "file": "DSC04234.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/28.webp",
+     "thumb": "assets/photos/jiangjiaao/t/28.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "两位村民",
+     "face": 1,
+     "file": "DSC04235.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/29.webp",
+     "thumb": "assets/photos/jiangjiaao/t/29.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "民居外墙",
+     "face": 0,
+     "file": "DSC04236.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/30.webp",
+     "thumb": "assets/photos/jiangjiaao/t/30.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "门前的村民",
+     "face": 1,
+     "file": "DSC04237.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/31.webp",
+     "thumb": "assets/photos/jiangjiaao/t/31.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "山脚下的楼房",
+     "face": 0,
+     "file": "DSC04238.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/32.webp",
+     "thumb": "assets/photos/jiangjiaao/t/32.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和村民大叔聊天",
+     "face": 1,
+     "file": "DSC04239.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/33.webp",
+     "thumb": "assets/photos/jiangjiaao/t/33.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村民大叔指向远处",
+     "face": 1,
+     "file": "DSC04240.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/34.webp",
+     "thumb": "assets/photos/jiangjiaao/t/34.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和村民大叔聊天",
+     "face": 1,
+     "file": "DSC04241.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/35.webp",
+     "thumb": "assets/photos/jiangjiaao/t/35.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "山与杂物",
+     "face": 0,
+     "file": "DSC04242.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/36.webp",
+     "thumb": "assets/photos/jiangjiaao/t/36.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和村民大叔合影",
+     "face": 1,
+     "file": "DSC04243.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/37.webp",
+     "thumb": "assets/photos/jiangjiaao/t/37.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "和村民大叔合影",
+     "face": 1,
+     "file": "DSC04244.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/38.webp",
+     "thumb": "assets/photos/jiangjiaao/t/38.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "村道上的三轮车与村民",
+     "face": 1,
+     "file": "DSC04245.jpg"
+    },
+    {
+     "src": "assets/photos/jiangjiaao/39.webp",
+     "thumb": "assets/photos/jiangjiaao/t/39.webp",
+     "w": 1400,
+     "h": 933,
+     "caption": "山坡上的围墙",
+     "face": 0,
+     "file": "DSC04246.jpg"
+    }
+   ]
+  },
+  {
+   "name": "吴岸村",
+   "short": "吴岸",
+   "en": "WU'AN",
+   "belt": "平原",
+   "hex": "#6fb8ff",
+   "lv": 4,
+   "themes": [
+    "flow",
+    "work",
+    "eaves",
+    "mem",
+    "gen"
+   ],
+   "date": "照片文件日期 2026.10.19 · 走访日期待补充",
+   "summary": "平原上的整村承包，由白毛村和董岸村合并而成。超市老板说，地被统一收走以后，村里人分成三类：出去打工的、留在村里接零工的、没活只能在家闲着的。所有无处可去的人，最后都聚在超市这一片屋檐底下。",
+   "occupation": "外出务工 / 村内零工 / 居家闲置",
+   "space": "超市屋檐",
+   "people": [
+    {
+     "name": "白毛村的超市老板",
+     "role": "口述一",
+     "note": "很好客。说地两三年前被统一收走承包，700 元一亩（村民说），农耕收入没了。小时候要放牛、做活，没什么玩的；现在孩子都去读书了。"
+    },
+    {
+     "name": "超市里的一位爷爷",
+     "role": "口述二",
+     "note": "说自家的地给别人种了十多年；种地的人要把粮食分给村民：亩产一千斤，村民分六百斤，另外还有工钱（村民说）。"
+    },
+    {
+     "name": "一位很老的奶奶",
+     "role": "超市里",
+     "note": "也在超市里。"
+    }
+   ],
+   "stories": [
+    {
+     "d": "缘起",
+     "t": "被轰走之后",
+     "v": "先想采访一位老人，被轰走了。"
+    },
+    {
+     "d": "缘起",
+     "t": "一块巧克力",
+     "v": "为了显得更有亲和力，去超市买了一块巧克力，碰上了好客的老板，聊开了。"
+    },
+    {
+     "d": "笔记",
+     "t": "空的烟柜",
+     "v": "超市里货很少，连展柜里的烟都是空壳。"
+    },
+    {
+     "d": "笔记",
+     "t": "两套记忆",
+     "v": "老板说“两三年、700 元一亩、收入没了”；爷爷说“十多年、六百斤粮加工钱、地给人种分粮”。说的是同一个村的地，不是同一块地。"
+    },
+    {
+     "d": "笔记",
+     "t": "两代人",
+     "v": "老人小时候放牛干活；现在的孩子只读书，没见过稻子怎么长。"
+    }
+   ],
+   "findings": [
+    "职业三分：外出务工、村内零工、居家闲置。",
+    "屋檐是田消失之后，散村人临时安放身体的新空间。",
+    "记忆分叉：宏大的统一政策，落到每个村民嘴里都会变成带个人记忆的版本。"
+   ],
+   "memory": {
+    "cols": [
+     "超市老板",
+     "爷爷"
+    ],
+    "rows": [
+     [
+      "时间",
+      "两三年",
+      "十多年"
+     ],
+     [
+      "补偿",
+      "700 元 / 亩",
+      "600 斤粮 + 工钱"
+     ],
+     [
+      "感受",
+      "农耕收入没了",
+      "地给人种，分粮"
+     ]
+    ],
+    "note": "都是村民说法；700 元/亩没有说明周期和收款方。"
+   },
+   "quotes": [
+    {
+     "text": "屋檐，是田退潮之后，散村人临时安放身体的新岸。",
+     "by": "李青熠 · 田野笔记"
+    },
+    {
+     "text": "小时候要放牛做活，没什么玩的，现在孩子都去读书了。",
+     "by": "超市老板（据笔记转述）"
+    }
+   ],
+   "gaps": [
+    "走访的具体日期（照片只有微信文件日期 2026.10.19）",
+    "超市屋檐下聚集人群的照片",
+    "700 元/亩的周期与收款方",
+    "两种说法与官方数据的对照",
+    "人像照片的公开授权"
+   ],
+   "id": "wuan",
+   "uv": [
+    0.89,
+    0.94
+   ],
+   "sat": "assets/sat/wuan.webp",
+   "photos": [
+    {
+     "src": "assets/photos/wuan/00.webp",
+     "thumb": "assets/photos/wuan/t/00.webp",
+     "w": 1400,
+     "h": 1050,
+     "caption": "墙上「免费代办执照」的招牌与老屋",
+     "face": 0,
+     "file": "微信图片_20261019151745_184_1.jpg"
+    },
+    {
+     "src": "assets/photos/wuan/01.webp",
+     "thumb": "assets/photos/wuan/t/01.webp",
+     "w": 1400,
+     "h": 1050,
+     "caption": "树下的破旧小屋",
+     "face": 0,
+     "file": "微信图片_20261019151745_183_1.jpg"
+    },
+    {
+     "src": "assets/photos/wuan/02.webp",
+     "thumb": "assets/photos/wuan/t/02.webp",
+     "w": 1400,
+     "h": 1050,
+     "caption": "倒在地上的自行车",
+     "face": 0,
+     "file": "微信图片_20261019151745_186_1.jpg"
+    },
+    {
+     "src": "assets/photos/wuan/03.webp",
+     "thumb": "assets/photos/wuan/t/03.webp",
+     "w": 1050,
+     "h": 1400,
+     "caption": "屋檐下做竹活的村民",
+     "face": 0,
+     "file": "微信图片_20261019151745_185_1.jpg"
+    },
+    {
+     "src": "assets/photos/wuan/04.webp",
+     "thumb": "assets/photos/wuan/t/04.webp",
+     "w": 1400,
+     "h": 1050,
+     "caption": "超市老板与调研者合影",
+     "face": 1,
+     "file": "微信图片_20261019151745_182_1.jpg"
+    },
+    {
+     "src": "assets/photos/wuan/05.webp",
+     "thumb": "assets/photos/wuan/t/05.webp",
+     "w": 1050,
+     "h": 1400,
+     "caption": "敞开的店门",
+     "face": 0,
+     "file": "微信图片_20261019151745_187_1.jpg"
+    }
+   ]
+  }
+ ]
+}
