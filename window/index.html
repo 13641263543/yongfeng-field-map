@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>退潮线 · 永丰镇四村公共艺术装置前期介绍</title>
+<meta name="description" content="退潮线：浙江临海永丰镇东安、横山腰、姜家岙、吴岸四村田野调研之后的十件公共艺术装置前期方案。">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<!--
+  three.js 通过 import map 引入。默认指向本地 vendor（离线可用，版本 0.170.0）。
+  想改用 CDN，把下面的路径换成：
+  https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js
+-->
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.min.js" } }
+</script>
+<script src="vendor/gsap.min.js"></script>
+<script src="site.js"></script>
+<script src="works.js"></script>
+</head>
+<body>
+<div id="app" class="is-loading">
+  <canvas id="gl" aria-hidden="true"></canvas>
+
+  <div id="labels" aria-label="十件作品"></div>
+
+  <header class="chrome chrome-top">
+    <h1 class="chrome-item" id="site-title"><a href="#/">退潮线 · 永丰镇四村公共艺术装置前期介绍</a></h1>
+  </header>
+  <footer class="chrome chrome-bottom">
+    <nav class="chrome-item view-switch" aria-label="视图">
+      <a href="#/" id="v-works" class="is-active" aria-current="page">作品</a><span aria-hidden="true">/</span><a href="#/index" id="v-index">索引</a>
+    </nav>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <span class="chrome-item" id="footer-right">临海 永丰镇 2026</span>
+  </footer>
+
+  <section id="index-view" aria-label="索引" hidden>
+    <div class="index-bg" aria-hidden="true"><img alt="" decoding="async"></div>
+    <ul id="index-list"></ul>
+    <div id="float-card" aria-hidden="true"><div class="float-inner"></div></div>
+  </section>
+
+  <!--
+    作品详情：和卡片在同一个页面、同一个 WebGL 场景里。
+    打开时是被点的那张卡片自己长大、压平、变成这块纸色面板（见 js/transition.js），
+    动画快结束时才把这层 DOM（可滚动的文字和图）对齐叠上去。
+  -->
+  <section id="detail" aria-labelledby="panel-title" hidden>
+    <div class="detail-catch" data-close></div>
+    <article class="panel">
+      <button class="panel-close" data-close aria-label="关闭"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <div class="panel-text"></div>
+      <div class="panel-media"></div>
+    </article>
+  </section>
+
+  <!-- 线稿全屏查看：白底，滚轮 / 双指缩放，拖动平移，Esc 或 × 关闭 -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="线稿全屏查看" hidden>
+    <div class="lb-stage"><img alt="" draggable="false"></div>
+    <p class="lb-caption"></p>
+    <div class="lb-tools">
+      <button type="button" data-lb="out" aria-label="缩小">−</button>
+      <button type="button" data-lb="fit" class="lb-zoom" aria-label="适应屏幕">100%</button>
+      <button type="button" data-lb="in" aria-label="放大">+</button>
+      <button type="button" data-lb="close" aria-label="关闭"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+  </div>
+
+  <div id="loader" role="status" aria-label="载入中">
+    <div class="dashes"><span><i></i></span><span><i></i></span><span><i></i></span></div>
+  </div>
+
+  <p id="hint" class="hint">滚动或拖动浏览 · 点击卡片展开</p>
+  <div id="cursor" aria-hidden="true"><i class="c-ring"><span>打开</span><em>‹ 拖动 ›</em></i><i class="c-dot"></i></div>
+</div>
+<noscript><div class="noscript">这个网站需要开启 JavaScript 才能浏览。<br>退潮线 · 永丰镇四村公共艺术装置前期介绍 · 临海 永丰镇 2026</div></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
