@@ -230,7 +230,7 @@ function buildParticles() {
   bgBuf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, bgBuf); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,3,-1,-1,3]), gl.STATIC_DRAW);
   ['uVP','uZ','uShift','uT','uHS','uIntro','uPR','uK','uFocusAmt','uMStr','uMouse','uFocus','uRip','uHL','uHLC','uThemeAmt','uGVP','uGateOn','uMorph','uBurst','uGHover','uAspect','uGMouse','uGDrag'].forEach(n => U[n] = gl.getUniformLocation(P, n));
   U.bgRes = gl.getUniformLocation(BG, 'uRes'); U.bgC = gl.getUniformLocation(BG, 'uC');
-  $('#s-pts').textContent = NPTS.toLocaleString('en-US');
+  $('#s-pts').textContent = NPTS.toLocaleString('zh-CN');
 }
 
 /* ---------- line geometry ---------- */
@@ -387,7 +387,7 @@ function buildMarkers() {
     const tipTags = (v.themes || []).slice(0, 3).map(tid => (DATA.themes.find(t => t.id === tid) || {}).name).filter(Boolean);
     el.innerHTML = `<div class="mag"><div class="pulse"></div><div class="pulse p2"></div><div class="ring"></div><div class="core"></div>
       <div class="lab"><b>${v.short || v.name}</b><span>${String(i+1).padStart(2,'0')} · ${v.belt || v.en}</span></div>
-      <div class="tip"><em>${v.date}</em><br>${tipTags.join(' / ') || v.en} · 点击查看</div></div><div class="hit"></div>`;
+      <div class="tip"><em>${v.date}</em><br>${tipTags.join(' / ') || v.belt || '田野'} · 点击查看</div></div><div class="hit"></div>`;
     el.querySelector('.hit').addEventListener('click', e => { e.stopPropagation(); openVillage(v); });
     wrap.appendChild(el); v.el = el; v.mag = el.querySelector('.mag');
     const it = document.createElement('button'); it.className = 'idx-item'; it.style.transitionDelay = (2.6 + i * .08) + 's';
@@ -403,7 +403,7 @@ function splitChars(el, text, base = 0, step = .07) {
   el.innerHTML = ''; [...text].forEach((ch, i) => { const s = document.createElement('span'); s.className = 'ch' + (ch === '·' ? ' dot' : ''); const k = document.createElement('i'); k.textContent = ch === ' ' ? '\u00a0' : ch; k.style.transitionDelay = (base + i * step) + 's'; s.appendChild(k); el.appendChild(s); });
 }
 function scramble(el, text, dur = 1200) {
-  const chars = '01#/<>_-+*ABCDEFXYZ', st = performance.now();
+  const chars = '〇一二三四五六七八九十·—', st = performance.now();
   (function f(now) { const p = clamp((now - st) / dur, 0, 1), n = Math.floor(text.length * p);
     el.textContent = text.slice(0, n) + [...text.slice(n)].map(c => c === ' ' ? ' ' : chars[(Math.random() * chars.length) | 0]).join('').slice(0, Math.max(0, Math.ceil((text.length - n) * Math.min(1, p * 3))));
     if (p < 1) requestAnimationFrame(f); else el.textContent = text; })(st);
@@ -417,7 +417,8 @@ function openVillage(v) {
   const switching = !!S.focus;
   S.focus = v; document.body.classList.add('focus'); panel.setAttribute('aria-hidden', 'false');
   V.forEach(o => { o.el.classList.toggle('active', o === v); o.nav.classList.toggle('on', o === v); });
-  setFocusGoal(v); history.replaceState(null, '', '#' + v.id);
+  setFocusGoal(v);
+  if (!document.body.classList.contains('window-open')) history.replaceState(null, '', '#' + v.id);
   S.ripples.push([v.x, v.z, S.t + .15, 1.4]);
   fillPanel(v, switching);
   spawnFan(v);
@@ -426,16 +427,19 @@ function closeVillage() {
   if (!S.focus) return;
   S.focus = null; document.body.classList.remove('focus'); panel.classList.remove('panel-in'); panel.setAttribute('aria-hidden', 'true');
   V.forEach(o => { o.el.classList.remove('active'); o.nav.classList.remove('on'); });
-  setOverviewGoal(); history.replaceState(null, '', location.pathname);
+  setOverviewGoal();
+  if (!document.body.classList.contains('window-open')) history.replaceState(null, '', location.pathname);
   dismissFan();
 }
 function fillPanel(v, switching) {
   panel.classList.remove('panel-in');
   const i = V.indexOf(v);
   const go = () => {
-    $('#p-idx').textContent = `VILLAGE ${String(i+1).padStart(2,'0')} / ${String(V.length).padStart(2,'0')}`;
+    $('#p-idx').textContent = `村落 ${String(i+1).padStart(2,'0')} / ${String(V.length).padStart(2,'0')}`;
     splitChars($('#p-name'), v.name, .12, .07);
-    $('#p-en').textContent = [v.belt, v.en].filter(Boolean).join(' · ');
+    $('#p-en').textContent = v.belt || '';
+    const note = $('#p-window-note');
+    if (note) note.textContent = '窗 · ' + (v.short || v.name) + '的装置在退潮线里';
     panel.style.setProperty('--vcolor', v.hex);
     const tn = (v.themes || []).map(id => (DATA.themes.find(t => t.id === id) || {}).name).filter(Boolean);
     $('#p-meta').innerHTML = `<span class="chip amber">${v.date}</span>` + tn.map(t => `<span class="chip">${t}</span>`).join('');
@@ -574,6 +578,12 @@ $('#next').addEventListener('click', () => openVillage(V[(V.indexOf(S.focus) + 1
 $('#lb-close').addEventListener('click', closeLightbox); LB.el.querySelector('.lb-bg').addEventListener('click', closeLightbox);
 $('#lb-prev').addEventListener('click', () => stepLightbox(-1)); $('#lb-next').addEventListener('click', () => stepLightbox(1));
 addEventListener('keydown', e => {
+  if (document.body.classList.contains('window-open')) {
+    if (e.key === 'Escape' && e.target.closest && e.target.closest('#field-window') && window.FieldWindow) {
+      e.preventDefault(); window.FieldWindow.close();
+    }
+    return;
+  }
   if (e.target.closest && e.target.closest('input,textarea')) return;
   if (GATE.leaving || GATE.returning) return;
   if (GATE.on) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); enterFromGate(e.key === 'Enter' ? 'skip' : 'burst'); } return; }
@@ -720,7 +730,7 @@ function drawLines(T) {
     ctx.fillStyle = `rgba(127,244,255,${.8 * a})`; ctx.fillRect(c1[0] - 2, c1[1] - 2, 4, 4);
     ctx.font = '9px GeistMonoLocal, monospace'; ctx.textAlign = 'left'; ctx.fillStyle = `rgba(200,250,255,${.75 * a})`;
     const u = S.wm[0] / MW + .5, v = S.wm[1] / MH + .5;
-    if (u >= 0 && u <= 1 && v >= 0 && v <= 1) ctx.fillText(`${String.fromCharCode(65 + Math.min(7, Math.floor(u * 8)))}-${String(Math.min(11, Math.floor(v * 11) + 1)).padStart(2, '0')}  H ${terrain(S.wm[0], S.wm[1]).toFixed(2)}`, c0x + 10, c0y - 8);
+    if (u >= 0 && u <= 1 && v >= 0 && v <= 1) ctx.fillText(`${String.fromCharCode(65 + Math.min(7, Math.floor(u * 8)))}-${String(Math.min(11, Math.floor(v * 11) + 1)).padStart(2, '0')}  高 ${terrain(S.wm[0], S.wm[1]).toFixed(2)}`, c0x + 10, c0y - 8);
   }
   // fan tethers
   if (S.focus && fanCards.length) {
@@ -735,6 +745,9 @@ function drawLines(T) {
 /* ---------- loop ---------- */
 let last = performance.now(), fpsAcc = 0, fpsN = 0, fpsT = 0;
 function frame(now) {
+  if (document.body.classList.contains('window-open') && !GATE.on && !GATE.leaving && !GATE.returning) {
+    last = now; requestAnimationFrame(frame); return;
+  }
   const dt = Math.min(.05, (now - last) / 1000); last = now; S.t += dt;
   fpsAcc += dt; fpsN++; if (now - fpsT > 500) { S.fps = Math.round(fpsN / fpsAcc); fpsAcc = 0; fpsN = 0; fpsT = now; $('#s-fps').textContent = S.fps; }
   if (!P || !V.length || !VP && !S.W) { requestAnimationFrame(frame); return; }
@@ -883,8 +896,8 @@ function showGate(opts) {
   let el = $('#gate');
   if (!el) {
     el = document.createElement('div'); el.id = 'gate';
-    el.innerHTML = `<div class="g-title"><span class="g-k mono">FIELD NOTES · 永丰四村</span><h1>《田埂退潮之后》</h1><p class="mono">一扇由粒子组成的门 · 推开它，门会散成整座村落的地形</p></div>
-      <div class="g-hint mono"><span>拖动门</span><i></i><span>点击进入</span><i></i><span><kbd>Enter</kbd> 直接进入</span></div>
+    el.innerHTML = `<div class="g-title"><span class="g-k mono">田野笔记 · 永丰四村</span><h1>《田埂退潮之后》</h1><p class="mono">一扇由粒子组成的门 · 推开它，门会散成整座村落的地形</p></div>
+      <div class="g-hint mono"><span>拖动门</span><i></i><span>点击进入</span><i></i><span><kbd>回车</kbd> 直接进入</span></div>
       <button class="g-skip mono" id="gate-skip">跳过 →</button>`;
     document.getElementById('app').appendChild(el);
     $('#gate-skip').addEventListener('click', e => { e.stopPropagation(); enterFromGate('skip'); });
@@ -916,7 +929,7 @@ function returnToGate() {
   Object.assign(cam, { tx: 0, tz: .05, dist: 6, pitch: 1.35, yaw: -.55, sx: 0, sy: 0 });
   setOverviewGoal();
   Object.assign(goal, { dist: overviewDist, pitch: .98, yaw: -.08 });
-  history.replaceState(null, '', location.pathname);
+  if (!document.body.classList.contains('window-open')) history.replaceState(null, '', location.pathname);
   // mount gate DOM (hidden until settle) and start reverse morph
   showGate({ fromReturn: true });
   GATE.returning = true; GATE.t0 = performance.now(); GATE.morph = 1; GATE.burst = 0;
@@ -1004,21 +1017,21 @@ function openOverlay(name) {
   const b = $('#ov-body'), A = DATA.about; let h = '';
   if (name === 'about') {
     const kv = (arr) => `<div class="ov-grid">${(arr || []).map(x => `<div class="ov-card-item"><b>${esc(x.k)}</b><span>${esc(x.v)}</span></div>`).join('')}</div>`;
-    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">ABOUT · 项目</div><h2>${esc(DATA.site.title)}</h2>
+    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">项目</div><h2>${esc(DATA.site.title)}</h2>
       <p class="lead">${esc(DATA.site.author || '')}</p>
       ${(A.titles || []).length ? `<h3>题目</h3><ul>${A.titles.map(t => `<li><b>${esc(t.t)}</b>${t.s ? ' — ' + esc(t.s) : ''}${t.m ? `<br><span style="color:var(--muted);font-size:12px">${esc(t.m)}</span>` : ''}</li>`).join('')}</ul>` : ''}
       <h3>缘起</h3><p>${esc(A.origin)}</p><h3>假设</h3><p>${esc(A.hypothesis)}</p><h3>问题</h3><p>${esc(A.question)}</p>
       <h3>方法</h3>${kv(A.methods)}<h3>发现</h3>${kv(A.findings)}<h3>回答</h3><p style="font-family:var(--serif);font-size:17px;color:#fff">${esc(A.answer)}</p>
-      ${(A.install || []).length ? `<h3>装置</h3>${kv(A.install)}` : ''}${(A.senses || []).length ? `<h3>感官</h3>${kv(A.senses)}` : ''}
+      ${(A.install || []).length ? `<h3>装置</h3>${kv(A.install)}` : '<h3>装置</h3>'}<p><button type="button" class="to-window" data-window="1" data-interactive="退潮线">打开窗 · 退潮线</button></p>${(A.senses || []).length ? `<h3>感官</h3>${kv(A.senses)}` : ''}
       ${(A.limits || []).length ? `<h3>局限</h3><ul>${A.limits.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${(A.refs || []).length ? `<h3>延伸参照</h3>${A.refs.map(r => `<div class="ref-q">${esc(r.q)}<cite>— ${esc(r.by)}</cite></div>`).join('')}<p class="mem-note">${esc(A.refsNote)}</p>` : ''}
       <h3>致谢</h3><p>${esc(A.thanks)}</p>`;
   } else if (name === 'timeline') {
-    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">TIMELINE · 时间线</div><h2>走访顺序</h2><p class="lead">${esc(DATA.timelineNote || '')}</p>
+    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">时间线</div><h2>走访顺序</h2><p class="lead">${esc(DATA.timelineNote || '')}</p>
       <div class="tl">${DATA.timeline.map(x => `<div class="tl-item"><span class="d">${esc(x.d)}</span><b>${esc(x.t)}</b><p>${esc(x.v)}</p>${x.vid ? vName(x.vid) + ' <span class="mono" style="font-size:10px;color:var(--muted)">→ 在地图上打开</span>' : ''}</div>`).join('')}</div>`;
   } else if (name === 'compare') {
     const C = DATA.compare;
-    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">COMPARE · 四村对比</div><h2>${esc(C.tagline)}</h2><p class="lead">从深山到平原：土地流转越彻底，身体越往屋檐下聚。</p>
+    h = `<div class="mono" style="font-size:10px;color:var(--cyan);letter-spacing:.2em">四村对比</div><h2>${esc(C.tagline)}</h2><p class="lead">从深山到平原：土地流转越彻底，身体越往屋檐下聚。</p>
       <table class="cmp"><tr><th></th>${C.cols.map(id => `<th class="v">${vName(id)}</th>`).join('')}</tr>
       ${C.rows.map(r => `<tr><td class="k">${esc(r.k)}</td>${r.v.map((x, i) => `<td>${esc(x)}${r.lv ? `<br><span class="lv" style="width:${r.lv[i] * 22}%;background:${(V.find(v => v.id === C.cols[i]) || {}).hex}"></span>` : ''}</td>`).join('')}</tr>`).join('')}</table>`;
   }
@@ -1065,10 +1078,12 @@ async function boot() {
   const wait = Math.max(0, 1300 - (performance.now() - st)); await new Promise(r => setTimeout(r, wait));
   $('#loader').classList.add('done');
   buildUI();
-  const h = location.hash.slice(1); const hv = V.find(v => v.id === h);
-  const noGate = hv || /[?&]nogate/.test(location.search);
+  const win = window.FieldWindow && window.FieldWindow.parse(location.hash);
+  const h = location.hash.slice(1); const hv = !win && V.find(v => v.id === h);
+  const noGate = hv || win || /[?&]nogate/.test(location.search);
   if (noGate) { startMap(); if (hv) setTimeout(() => openVillage(hv), 3200); }
   else showGate();
+  if (window.FieldWindow) window.FieldWindow.onMapReady();
 }
 function startMap() {
   if (S.t0 != null) return;
@@ -1081,6 +1096,6 @@ function startMap() {
   setTimeout(() => scramble($('#subtitle'), DATA.site.subtitle, 1300), 900);
 }
 requestAnimationFrame(frame);
-boot().catch(e => { console.error(e); $('#ld-num').textContent = 'ERR'; });
+boot().catch(e => { console.error(e); $('#ld-num').textContent = '失败'; });
 window.__app = { S, V: () => V, open: id => openVillage(V.find(v => v.id === id)), close: closeVillage, cam, goal, GATE, enter: m => enterFromGate(m || 'burst'), back: () => returnToGate(), theme: id => setTheme(id), overlay: n => openOverlay(n), masonry: id => openMasonry(id ? V.find(v => v.id === id) : null), zoomBy: z => zoomBy(z), reset: () => resetView() };
 })();
