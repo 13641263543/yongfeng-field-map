@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="version" content="">
 <title>田埂退潮之后 · 永丰四村田野地图</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -116,8 +117,13 @@
   </div>
   <iframe id="fw-frame" title="退潮线" tabindex="0"></iframe>
 </div>
+<p id="site-version" class="site-version"></p>
 <script src="vendor/d3.min.js"></script>
 <script src="app.js"></script>
 <script src="shell.js"></script>
+<script type="module">
+import { stampVersion } from './version.js';
+stampVersion();
+</script>
 </body>
 </html>

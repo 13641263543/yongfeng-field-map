@@ -10,7 +10,8 @@ python3 -m http.server 8780
 
 ## 门与地图
 
-- `index.html`：地图 DOM。门楼由脚本插入 `#gate`。`#field-window` 是退潮线的外框（「窗 · 退潮线」「回地图」）。
+- `index.html`：地图 DOM。门楼由脚本插入 `#gate`。`#field-window` 是退潮线的外框（「窗 · 退潮线」「回地图」）。左上角 `#site-version` 显示版本。
+- `version.js`：全站版本 `VERSION`，`stampVersion()` 写角标和 `<meta name="version">`。地图和退潮线都读这一处。
 - `style.css`：地图外观。颜色在 `:root` 的 `--bg` `--cyan` `--amber` `--text` `--muted`，字体 `--sans` `--serif` `--mono`。
 - `app.js`：粒子、门、相机、线稿、村子面板。入口 `boot()` → `showGate()` 或 `startMap()`。调试对象 `window.__app`。
 - `shell.js`：窗的开关和哈希。`parse` / `toParent` / `openWindow` / `closeWindow`。村子对应的第一件作品在 `FIRST`。
@@ -23,7 +24,7 @@ python3 -m http.server 8780
 
 嵌在地图里时外层地址是 `#/tuichao`、`#/tuichao/index`、`#/tuichao/work/01`…`10`。单独打开本目录时仍是 `#/`、`#/index`、`#/work/NN`（`main.js` 的 `EMBED`、`navigate()`）。
 
-- `index.html`：转鼓页。`#gl` 画布，`#detail` 详情，`#lightbox` 线稿，`#loader` 载入。
+- `index.html`：转鼓页。`#gl` 画布，`#detail` 详情，`#lightbox` 线稿，`#loader` 载入。右上角 `#site-version` 用 `../version.js` 盖章（只在本目录起服务时上一级不存在，角标省略）。
 - `site.js`：`window.SITE`，标题、页脚、提示语。
 - `works.js`：`window.WORKS`，十件作品的文字和图片路径。由 `tools/import-proposal.mjs` 生成，不要手改。
 - `css/style.css`：配色 `--bg` `--ink` `--tint` `--paper` `--paper-ink`，字体 `--serif` `--sans`。
@@ -54,6 +55,13 @@ python3 -m http.server 8780
 - 灯箱：退潮线线稿是 `lightbox.js` 的 `createLightbox()`，入口是详情里的 `[data-zoom]`。地图照片灯箱是 `app.js` 的 `openLightbox()` / `LB`，DOM 在根上的 `#lightbox`。
 - 字体和配色：地图改 `style.css` 的 `:root`。退潮线改 `window/css/style.css` 的 `:root`；卡片贴图上的字色在 `typecards.js` 的 `INK` / `TINT` / `SERIF`。
 - 载入页：地图是根上的 `#loader`，进度在 `boot()`。退潮线是 `window/index.html` 的 `#loader`，进度条 `setProgress()`，时间轴在 `main.js` 的 `start()`。
+- 版本号：只改 `version.js` 的 `VERSION`，并在文末「版本记录」加一行。角标样式是两处 `.site-version`（`style.css` 左上，`window/css/style.css` 右上）。
+
+## 版本记录
+
+每次改动都抬版本，并在这里留一行。小修加次版本（1.0 → 1.1）。页面上的「版本 x.x」从 `version.js` 读，不要在 HTML 里另写数字。
+
+- 1.0：门 → 地图 → 窗 合站。
 
 ## 不要动的约定
 
